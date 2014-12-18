@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/kv/EE 324/pong/clkdiv.xst" -ofn "/home/kv/EE 324/pong/clkdiv.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "clkdiv.ngc" clkdiv.ngd  

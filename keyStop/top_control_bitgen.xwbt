@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/kv/EE 324/keyStop/top_control.ncd
+OUTFILE=/home/kv/EE 324/keyStop/top_control.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=/home/kv/EE 324/keyStop
+LICENSE=WebPack
+USER_INFO=210929978_0_0_804

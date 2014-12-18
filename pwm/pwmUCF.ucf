@@ -1,0 +1,12 @@
+NET "clk"   			LOC = "V10";
+
+NET "sw<0>" 			LOC = "T10";
+NET "sw<1>" 			LOC = "T9";
+NET "sw<2>" 			LOC = "V9";
+NET "sw<3>" 			LOC = "M8";
+NET "sw<4>" 			LOC = "N8";
+NET "sw<5>" 			LOC = "U8";
+NET "sw<6>" 			LOC = "V8";
+NET "sw<7>" 			LOC = "T5";
+
+NET "pwm_out"		LOC = "T12";//"U16";

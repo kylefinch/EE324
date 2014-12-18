@@ -1,0 +1,4 @@
+verilog work "sev.v"
+verilog work "key_ctrl.v"
+verilog work "clkdiv.v"
+verilog work "top_control.v"

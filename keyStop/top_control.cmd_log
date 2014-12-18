@@ -1,0 +1,282 @@
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xa7a100t-csg324-2I "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xa7a100t-csg324-2I "top_control.ngc" top_control.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xa7a100t-csg324-2I "top_control.ngc" top_control.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xa7a100t-csg324-2I "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim top_control.ngc top_control_synthesis.v 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/keyStop/top_control.xst" -ofn "/home/kv/EE 324/keyStop/top_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mine.ucf -p xc6slx16-csg324-3 "top_control.ngc" top_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_control_map.ncd top_control.ngd top_control.pcf 
+par -w -intstyle ise -ol high -mt off top_control_map.ncd top_control.ncd top_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_control.twx top_control.ncd -o top_control.twr top_control.pcf -ucf mine.ucf 
+bitgen -intstyle ise -f top_control.ut top_control.ncd 

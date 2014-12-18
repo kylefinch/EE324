@@ -1,0 +1,20 @@
+NET "clock" LOC = "V10";
+NET "dp" LOC = "M13";
+
+NET "reset" LOC = "B8";
+NET "start" LOC = "C4";
+NET "stop" LOC = "D9";
+NET "inc" LOC = "A8";
+
+NET "an<3>" LOC = "P17";
+NET "an<2>" LOC = "P18";
+NET "an<1>" LOC = "N15";
+NET "an<0>" LOC = "N16";
+
+NET "g" LOC = "L14";
+NET "f" LOC = "N14";
+NET "e" LOC = "M14";
+NET "d" LOC = "U18";
+NET "c" LOC = "U17";
+NET "b" LOC = "T18";
+NET "a" LOC = "T17";

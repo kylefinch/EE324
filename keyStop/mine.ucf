@@ -1,0 +1,18 @@
+NET "kbData" 			LOC = "J13" | PULLUP;
+NET "kbClk"  			LOC = "L12" | PULLUP;
+NET "clk"   			LOC = "V10";
+NET "clr"			LOC = "C9";
+
+NET "seg<0>" 	   LOC = "T17";
+NET "seg<1>"         LOC = "T18";
+NET "seg<2>"         LOC = "U17";
+NET "seg<3>"         LOC = "U18";
+NET "seg<4>"         LOC = "M14";
+NET "seg<5>"         LOC = "N14";
+NET "seg<6>"         LOC = "L14";
+NET "dec"         LOC = "M13";
+
+NET "anode<0>"          LOC = "N16";
+NET "anode<1>"          LOC = "N15";
+NET "anode<2>"          LOC = "P18";
+NET "anode<3>"          LOC = "P17";
