@@ -1,7 +1,7 @@
 Release 14.7 Drc P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Wed Nov 19 21:01:01 2014
+Thu Dec 18 20:26:17 2014
 
 drc -z PWMcontroller.ncd PWMcontroller.pcf
 

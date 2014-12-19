@@ -1,0 +1,117 @@
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myUCF.ucf -p xc6slx16-csg324-3 "topSPI.ngc" topSPI.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topSPI_map.ncd topSPI.ngd topSPI.pcf 
+par -w -intstyle ise -ol high -mt off topSPI_map.ncd topSPI.ncd topSPI.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topSPI.twx topSPI.ncd -o topSPI.twr topSPI.pcf -ucf myUCF.ucf 
+bitgen -intstyle ise -f topSPI.ut topSPI.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myUCF.ucf -p xc6slx16-csg324-3 "topSPI.ngc" topSPI.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topSPI_map.ncd topSPI.ngd topSPI.pcf 
+par -w -intstyle ise -ol high -mt off topSPI_map.ncd topSPI.ncd topSPI.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topSPI.twx topSPI.ncd -o topSPI.twr topSPI.pcf -ucf myUCF.ucf 
+bitgen -intstyle ise -f topSPI.ut topSPI.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myUCF.ucf -p xc6slx16-csg324-3 "topSPI.ngc" topSPI.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topSPI_map.ncd topSPI.ngd topSPI.pcf 
+par -w -intstyle ise -ol high -mt off topSPI_map.ncd topSPI.ncd topSPI.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topSPI.twx topSPI.ncd -o topSPI.twr topSPI.pcf -ucf myUCF.ucf 
+bitgen -intstyle ise -f topSPI.ut topSPI.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myUCF.ucf -p xc6slx16-csg324-3 "topSPI.ngc" topSPI.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topSPI_map.ncd topSPI.ngd topSPI.pcf 
+par -w -intstyle ise -ol high -mt off topSPI_map.ncd topSPI.ncd topSPI.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topSPI.twx topSPI.ncd -o topSPI.twr topSPI.pcf -ucf myUCF.ucf 
+bitgen -intstyle ise -f topSPI.ut topSPI.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myUCF.ucf -p xc6slx16-csg324-3 "topSPI.ngc" topSPI.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topSPI_map.ncd topSPI.ngd topSPI.pcf 
+par -w -intstyle ise -ol high -mt off topSPI_map.ncd topSPI.ncd topSPI.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topSPI.twx topSPI.ncd -o topSPI.twr topSPI.pcf -ucf myUCF.ucf 
+bitgen -intstyle ise -f topSPI.ut topSPI.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myUCF.ucf -p xc6slx16-csg324-3 "topSPI.ngc" topSPI.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topSPI_map.ncd topSPI.ngd topSPI.pcf 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myUCF.ucf -p xc6slx16-csg324-3 "topSPI.ngc" topSPI.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topSPI_map.ncd topSPI.ngd topSPI.pcf 
+par -w -intstyle ise -ol high -mt off topSPI_map.ncd topSPI.ncd topSPI.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topSPI.twx topSPI.ncd -o topSPI.twr topSPI.pcf -ucf myUCF.ucf 
+bitgen -intstyle ise -f topSPI.ut topSPI.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myUCF.ucf -p xc6slx16-csg324-3 "topSPI.ngc" topSPI.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topSPI_map.ncd topSPI.ngd topSPI.pcf 
+par -w -intstyle ise -ol high -mt off topSPI_map.ncd topSPI.ncd topSPI.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topSPI.twx topSPI.ncd -o topSPI.twr topSPI.pcf -ucf myUCF.ucf 
+bitgen -intstyle ise -f topSPI.ut topSPI.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myUCF.ucf -p xc6slx16-csg324-3 "topSPI.ngc" topSPI.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topSPI_map.ncd topSPI.ngd topSPI.pcf 
+par -w -intstyle ise -ol high -mt off topSPI_map.ncd topSPI.ncd topSPI.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topSPI.twx topSPI.ncd -o topSPI.twr topSPI.pcf -ucf myUCF.ucf 
+bitgen -intstyle ise -f topSPI.ut topSPI.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myUCF.ucf -p xc6slx16-csg324-3 "topSPI.ngc" topSPI.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topSPI_map.ncd topSPI.ngd topSPI.pcf 
+par -w -intstyle ise -ol high -mt off topSPI_map.ncd topSPI.ncd topSPI.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topSPI.twx topSPI.ncd -o topSPI.twr topSPI.pcf -ucf myUCF.ucf 
+bitgen -intstyle ise -f topSPI.ut topSPI.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myUCF.ucf -p xc6slx16-csg324-3 "topSPI.ngc" topSPI.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topSPI_map.ncd topSPI.ngd topSPI.pcf 
+par -w -intstyle ise -ol high -mt off topSPI_map.ncd topSPI.ncd topSPI.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topSPI.twx topSPI.ncd -o topSPI.twr topSPI.pcf -ucf myUCF.ucf 
+bitgen -intstyle ise -f topSPI.ut topSPI.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myUCF.ucf -p xc6slx16-csg324-3 "topSPI.ngc" topSPI.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topSPI_map.ncd topSPI.ngd topSPI.pcf 
+par -w -intstyle ise -ol high -mt off topSPI_map.ncd topSPI.ncd topSPI.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topSPI.twx topSPI.ncd -o topSPI.twr topSPI.pcf -ucf myUCF.ucf 
+bitgen -intstyle ise -f topSPI.ut topSPI.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myUCF.ucf -p xc6slx16-csg324-3 "topSPI.ngc" topSPI.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topSPI_map.ncd topSPI.ngd topSPI.pcf 
+par -w -intstyle ise -ol high -mt off topSPI_map.ncd topSPI.ncd topSPI.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topSPI.twx topSPI.ncd -o topSPI.twr topSPI.pcf -ucf myUCF.ucf 
+bitgen -intstyle ise -f topSPI.ut topSPI.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myUCF.ucf -p xc6slx16-csg324-3 "topSPI.ngc" topSPI.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topSPI_map.ncd topSPI.ngd topSPI.pcf 
+par -w -intstyle ise -ol high -mt off topSPI_map.ncd topSPI.ncd topSPI.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topSPI.twx topSPI.ncd -o topSPI.twr topSPI.pcf -ucf myUCF.ucf 
+bitgen -intstyle ise -f topSPI.ut topSPI.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myUCF.ucf -p xc6slx16-csg324-3 "topSPI.ngc" topSPI.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topSPI_map.ncd topSPI.ngd topSPI.pcf 
+par -w -intstyle ise -ol high -mt off topSPI_map.ncd topSPI.ncd topSPI.pcf 
+bitgen -intstyle ise -f topSPI.ut topSPI.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myUCF.ucf -p xc6slx16-csg324-3 "topSPI.ngc" topSPI.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topSPI_map.ncd topSPI.ngd topSPI.pcf 
+par -w -intstyle ise -ol high -mt off topSPI_map.ncd topSPI.ncd topSPI.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topSPI.twx topSPI.ncd -o topSPI.twr topSPI.pcf -ucf myUCF.ucf 
+bitgen -intstyle ise -f topSPI.ut topSPI.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myUCF.ucf -p xc6slx16-csg324-3 "topSPI.ngc" topSPI.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topSPI_map.ncd topSPI.ngd topSPI.pcf 
+par -w -intstyle ise -ol high -mt off topSPI_map.ncd topSPI.ncd topSPI.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topSPI.twx topSPI.ncd -o topSPI.twr topSPI.pcf -ucf myUCF.ucf 
+bitgen -intstyle ise -f topSPI.ut topSPI.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/6_spi/SPI_3/topSPI.xst" -ofn "/home/kv/EE 324/6_spi/SPI_3/topSPI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myUCF.ucf -p xc6slx16-csg324-3 "topSPI.ngc" topSPI.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topSPI_map.ncd topSPI.ngd topSPI.pcf 
+par -w -intstyle ise -ol high -mt off topSPI_map.ncd topSPI.ncd topSPI.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topSPI.twx topSPI.ncd -o topSPI.twr topSPI.pcf -ucf myUCF.ucf 
+bitgen -intstyle ise -f topSPI.ut topSPI.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myUCF.ucf -p xc6slx16-csg324-3 "topSPI.ngc" topSPI.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topSPI_map.ncd topSPI.ngd topSPI.pcf 
+par -w -intstyle ise -ol high -mt off topSPI_map.ncd topSPI.ncd topSPI.pcf 
+bitgen -intstyle ise -f topSPI.ut topSPI.ncd 

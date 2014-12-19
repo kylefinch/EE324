@@ -1,0 +1,22 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Dec 18 21:46:15 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "CS" LOCATE = SITE "H3" LEVEL 1;
+COMP "SDATA" LOCATE = SITE "K6" LEVEL 1;
+COMP "SCLK" LOCATE = SITE "G3" LEVEL 1;
+COMP "sw<0>" LOCATE = SITE "T10" LEVEL 1;
+COMP "sw<1>" LOCATE = SITE "T9" LEVEL 1;
+COMP "pwmOUT" LOCATE = SITE "T12" LEVEL 1;
+COMP "sw<2>" LOCATE = SITE "V9" LEVEL 1;
+COMP "sw<3>" LOCATE = SITE "M8" LEVEL 1;
+COMP "bt1" LOCATE = SITE "C4" LEVEL 1;
+COMP "sw<4>" LOCATE = SITE "N8" LEVEL 1;
+COMP "sw<5>" LOCATE = SITE "U8" LEVEL 1;
+COMP "sw<6>" LOCATE = SITE "V8" LEVEL 1;
+COMP "sw<7>" LOCATE = SITE "T5" LEVEL 1;
+COMP "RST" LOCATE = SITE "B8" LEVEL 1;
+COMP "CLK" LOCATE = SITE "V10" LEVEL 1;
+SCHEMATIC END;
+

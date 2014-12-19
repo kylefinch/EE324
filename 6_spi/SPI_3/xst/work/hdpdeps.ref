@@ -1,0 +1,16 @@
+V3 9
+FL /home/kjhe77e/WSU/DigitalDesign324/6_spi/SPI_3/PWM.vhd 2014/12/11.20:27:41 P.20131013
+FL /home/kjhe77e/WSU/DigitalDesign324/6_spi/SPI_3/SPI_top.vhd 2014/12/11.20:14:30 P.20131013
+FL "/home/kv/EE 324/6_spi/SPI_3/PWM.vhd" 2014/12/18.17:23:59 P.20131013
+EN work/PWM 1418952419 FL "/home/kv/EE 324/6_spi/SPI_3/PWM.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/PWM/Behavioral 1418952420 \
+      FL "/home/kv/EE 324/6_spi/SPI_3/PWM.vhd" EN work/PWM 1418952419
+FL "/home/kv/EE 324/6_spi/SPI_3/SPI_top.vhd" 2014/12/18.17:26:53 P.20131013
+EN work/SPI_top 1418952421 FL "/home/kv/EE 324/6_spi/SPI_3/SPI_top.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/SPI_top/PmodMic 1418952422 \
+      FL "/home/kv/EE 324/6_spi/SPI_3/SPI_top.vhd" EN work/SPI_top 1418952421 \
+      CP PWM

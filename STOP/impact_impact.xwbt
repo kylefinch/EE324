@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/kv/EE 324/STOP/impact.xsl
+OUTFILE=/home/kv/EE 324/STOP/impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=/home/kv/EE 324/STOP
+LICENSE=iMPACT
+USER_INFO=iMPACT

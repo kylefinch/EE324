@@ -1,0 +1,4 @@
+EN pwm NULL "/home/kv/EE 324/6_spi/SPI_3/PWM.vhd" sub00/vhpl02 1418952419
+AR spi_top pmodmic "/home/kv/EE 324/6_spi/SPI_3/SPI_top.vhd" sub00/vhpl01 1418952422
+AR pwm behavioral "/home/kv/EE 324/6_spi/SPI_3/PWM.vhd" sub00/vhpl03 1418952420
+EN spi_top NULL "/home/kv/EE 324/6_spi/SPI_3/SPI_top.vhd" sub00/vhpl00 1418952421

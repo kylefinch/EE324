@@ -50,3 +50,9 @@ map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -re
 par -w -intstyle ise -ol high -mt off PWMcontroller_map.ncd PWMcontroller.ncd PWMcontroller.pcf 
 trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PWMcontroller.twx PWMcontroller.ncd -o PWMcontroller.twr PWMcontroller.pcf -ucf pwmUCF.ucf 
 bitgen -intstyle ise -f PWMcontroller.ut PWMcontroller.ncd 
+xst -intstyle ise -ifn "/home/kv/EE 324/pwm/PWMcontroller.xst" -ofn "/home/kv/EE 324/pwm/PWMcontroller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pwmUCF.ucf -p xc6slx16-csg324-2 "PWMcontroller.ngc" PWMcontroller.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PWMcontroller_map.ncd PWMcontroller.ngd PWMcontroller.pcf 
+par -w -intstyle ise -ol high -mt off PWMcontroller_map.ncd PWMcontroller.ncd PWMcontroller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PWMcontroller.twx PWMcontroller.ncd -o PWMcontroller.twr PWMcontroller.pcf -ucf pwmUCF.ucf 
+bitgen -intstyle ise -f PWMcontroller.ut PWMcontroller.ncd 

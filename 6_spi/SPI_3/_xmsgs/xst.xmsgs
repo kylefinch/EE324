@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/kv/EE 324/6_spi/SPI_3/PWM.vhd" Line 62: <arg fmt="%s" index="1">data</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">sw</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">bt1</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/kv/EE 324/6_spi/SPI_3/topSPI.vhd</arg>&quot; line <arg fmt="%s" index="2">44</arg>: Output port &lt;<arg fmt="%s" index="3">DONE</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">C0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/kv/EE 324/6_spi/SPI_3/topSPI.vhd</arg>&quot; line <arg fmt="%s" index="2">45</arg>: Output port &lt;<arg fmt="%s" index="3">DONE</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">C1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">temp_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">C0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">temp_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">C0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">temp_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">C0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">temp_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">C0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">temp_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">C0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">temp_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">C0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">temp_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MIC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">temp_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MIC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">temp_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MIC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">temp_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MIC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">temp_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MIC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">temp_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MIC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">C1/DONE</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">topSPI</arg>&gt;.
+</msg>
+
+</messages>
+
